@@ -13,6 +13,10 @@ const config: Config = {
         foreground: "var(--foreground)",
       },
     },
+    fontFamily: {
+      display: ['Source Serif Pro', 'Georgia', 'serif'],
+      body: ['Synonym', 'system-ui', 'sans-serif'],
+    },
   },
   plugins: [],
   darkMode: 'selector',
